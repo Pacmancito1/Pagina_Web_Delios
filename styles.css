@@ -1,0 +1,37 @@
+body{
+    background-image: url('img/IMG-20201215-WA0104.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-header{
+    text-align: center;
+    align-items: center;
+}
+
+.titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+}
+
+.main-nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.main-nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}

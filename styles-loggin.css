@@ -1,0 +1,82 @@
+.titulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+}
+
+.titulo-inquilino{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.titulo-comite{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.main-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+}
+
+.loggin-form-inq{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    align-items: center;
+    gap: 15px;
+}
+
+.aux-num-casa,
+.aux-correo,
+.aux-contraseña,
+.aux-telefono {
+    display: contents; 
+}
+
+.loggin-form-com{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    align-items: center;
+    gap: 15px;
+}
+
+.aux-cargo,
+.aux-correo-comite,
+.aux-password-comite {
+    display: contents;
+}
+
+.aux-boton{
+    margin-top: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.aux-registro-inq{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.aux-registro-com{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.aux-boton-com{
+    margin-top: 21.5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
